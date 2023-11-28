@@ -1,0 +1,212 @@
+Uri: http://dev.mahimagroup.com/about
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\about.html
+Content Type: text/html
+
+Uri: http://dev.mahimagroup.com/mahima/about-banner.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\about-banner.jpg
+Content Type: image/jpeg
+
+Uri: http://dev.mahimagroup.com/fonts/icofont/icofont.min.css
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\fonts\icofont\icofont.min.css
+Content Type: text/css
+
+Uri: http://dev.mahimagroup.com/mahima/assets/bootstrap/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\assets\bootstrap\bootstrap.min.css
+Content Type: text/css
+
+Uri: http://dev.mahimagroup.com/mahima/assets/css/custom.css
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\assets\css\custom.css
+Content Type: text/css
+
+Uri: http://dev.mahimagroup.com/mahima/assets/css/media_query.css
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\assets\css\media_query.css
+Content Type: text/css
+
+Uri: http://dev.mahimagroup.com/mahima/assets/css/theme.css
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\assets\css\theme.css
+Content Type: text/css
+
+Uri: https://www.facebook.com/MahimaGroupOnline/
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\MahimaGroupOnline\index.htm
+Content Type: text/html
+
+Uri: https://twitter.com/MahimaGroup
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\MahimaGroup.html
+Content Type: text/html
+
+Uri: https://www.instagram.com/mahima_group/
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima_group\index.htm
+Content Type: text/html
+
+Uri: https://www.youtube.com/channel/UCJ96pOMAdRlURL1179xH3Lg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\channel\UCJ96pOMAdRlURL1179xH3Lg.html
+Content Type: text/html
+
+Uri: https://api.whatsapp.com/send?phone=+911414050643&text=Hi Mahima Group, I have a query regarding Latest Property. Please Help!
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\send.html
+Content Type: text/html
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\ajax\libs\jquery\3.5.1\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\npm\bootstrap@4.6.1\dist\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: http://dev.mahimagroup.com/jquery plugin/incrementalNumber/incrementalNumber.js
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\jquery plugin\incrementalNumber\incrementalNumber.js
+Content Type: application/javascript
+
+Uri: http://dev.mahimagroup.com/mahima/assets/js/geo-loaction.js
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\assets\js\geo-loaction.js
+Content Type: application/javascript
+
+Uri: http://dev.mahimagroup.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js
+Content Type: application/javascript
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/logonew m.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\logonew m.png
+Content Type: image/png
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/logosmall (1).png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\logosmall (1).png
+Content Type: image/png
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/search.svg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\search.svg
+Content Type: image/svg+xml
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/close.svg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\close.svg
+Content Type: image/svg+xml
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/close.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\close.png
+Content Type: image/png
+
+Uri: http://dev.mahimagroup.com/mahima/DHIRENDRA-MADAN.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\DHIRENDRA-MADAN.png
+Content Type: image/png
+
+Uri: http://dev.mahimagroup.com/mahima/NIKHIL-MADAN.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\NIKHIL-MADAN.png
+Content Type: image/png
+
+Uri: https://www.mahimagroup.com/images/other/slide1.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\slide1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/slide2.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\slide2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/9.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\9.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/10.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\10.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/fm1.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\fm1.png
+Content Type: image/png
+
+Uri: https://www.mahimagroup.com/images/other/3.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\3.png
+Content Type: image/png
+
+Uri: https://www.mahimagroup.com/images/other/4.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\4.png
+Content Type: image/png
+
+Uri: https://www.mahimagroup.com/images/other/5.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\5.png
+Content Type: image/png
+
+Uri: https://www.mahimagroup.com/images/other/6.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\6.png
+Content Type: image/png
+
+Uri: https://www.mahimagroup.com/images/other/7.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\7.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/rera-submit-2020-logo.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\rera-submit-2020-logo.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/1.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/2.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/3.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/4.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/5.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/Media-1602755049mahima-new-projects-media-news.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\Media-1602755049mahima-new-projects-media-news.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/Media-1602755126customers-media-news.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\Media-1602755126customers-media-news.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/Media-1602755220mahima-sansaar-media-news.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\Media-1602755220mahima-sansaar-media-news.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/Media-1602755291sansaar-media-news.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\Media-1602755291sansaar-media-news.jpg
+Content Type: image/jpeg
+
+Uri: https://www.mahimagroup.com/images/other/media/Media-1602755381florenza-media-news.jpg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\images\other\media\Media-1602755381florenza-media-news.jpg
+Content Type: image/jpeg
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/facebook.svg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\facebook.svg
+Content Type: image/svg+xml
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/youtube.svg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\youtube.svg
+Content Type: image/svg+xml
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/twitter.svg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\twitter.svg
+Content Type: image/svg+xml
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/instagram.svg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\instagram.svg
+Content Type: image/svg+xml
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/images/linkedin.svg
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\images\linkedin.svg
+Content Type: image/svg+xml
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/js/wow.min50df.js?ver=c907cccc7fe88ec1e614ed7c2db57384
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\js\wow.min50df.js
+Content Type: application/javascript
+
+Uri: http://dev.mahimagroup.com/wp-content/themes/sobha/js/owl.carousel.min50df.js?ver=c907cccc7fe88ec1e614ed7c2db57384
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\wp-content\themes\sobha\js\owl.carousel.min50df.js
+Content Type: application/javascript
+
+Uri: http://dev.mahimagroup.com/mahima/enquiry.png
+File Name: C:\Downloaded Web Sites\dev.mahimagroup.com\mahima\enquiry.png
+Content Type: image/png
+
