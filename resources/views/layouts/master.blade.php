@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="{{asset('/css/contact-form.css')}}">
   <link rel="stylesheet" href="{{asset('/css/flexslider.css')}}">
   <script type="text/javascript" src="{{asset('/js/script.js')}}"></script>
-  <link rel="icon" href="{{asset('/images/favicon.ico')}}">
+  <link rel="icon" href="{{asset('/images/favicon.png')}}">
 
   <script>
     (function (i, s, o, g, r, a, m) {
@@ -52,13 +52,13 @@
       <div class="navbar-mini ">
         <div class="container-fluid ">
           <div class="nav navbar-nav navbar-left" style="font-size:12px;">
-            <center>
+           
               <span>Welcome to our Hotel Anju Shree Inn Jaipur, Rajasthan</span>
               <hr />
-              <span><i class="fa fa-phone"></i> +91 7412963888 , +91 9829655254 , 0141 4871485</span>
+              <span><i class="fa fa-phone"></i> +91 7412963888 , +91 9829655254 , +91 9772722276 , 0141 4871485</span>
               <hr />
-              <span><i class="fa fa-envelope-o"></i>hotelanjushreeinnjpr@gmail.com</span>
-            </center>
+              <span><i class="fa fa-envelope-o"></i>hotelanjushreeinnjpr@gmail.com , Gm@hotelanjushree.in</span>
+          
           </div>
           {{-- <div class="nav navbar-nav navbar-right">
             <div class="minisocial-group">
@@ -340,9 +340,9 @@
           <p class="footer-title">CONTACT US</p>
           <p>Plot No. 1B , Shop No. 6/7 , Kalyan Nagar 3rd , Sanganer , Tonk Road , Jaipur - 302029 </p>
           <div class="tag-row icon-row">
-            <span><a href="mailto:hotelanjushreeinnjpr@gmail.com">hotelanjushreeinnjpr@gmail.com</a></span>
-            <span>+91 7412963888 , +91 9829655254 , 0141 4871485</span>
-            {{-- <span>0141-2337787</span> --}}
+            <span><a href="mailto:hotelanjushreeinnjpr@gmail.com">hotelanjushreeinnjpr@gmail.com </a> , 
+              <a href="mailto:Gm@hotelanjushree.in">Gm@hotelanjushree.in</a></span>
+            <span>+91 7412963888 , +91 9829655254 , +91 9772722276 , 0141 4871485</span>
           </div>
           <hr class="space xs" />
           <div class="btn-group navbar-social">

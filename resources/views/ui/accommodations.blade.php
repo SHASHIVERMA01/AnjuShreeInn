@@ -21,7 +21,7 @@
     <link rel="stylesheet" href='css/contact-form.css'>
     <link rel="stylesheet" href='css/flexslider.css'>
     <script type="text/javascript" src="js/script.js"></script>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="{{asset('/images/favicon.png')}}">
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -39,12 +39,92 @@
             border-bottom: 2px solid #00529C;
             /* text-decoration: underline; */
         }
-
-     
     </style>
 
 </head>
 
+<div class="floating_btn">
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=919829655254">
+        <div class="contact_icon"> <span style="font-size: 15px ; padding:0px 10px;color:white;" id="mySpan1"> Contact Us </span>
+            <i class="fa fa-whatsapp my-float" style="color: #fff"></i>
+        </div>
+    </a>
+
+</div>
+
+<div class="floating_btn2">
+    <a target="_blank" href="tel: 9829655254">
+        <div class="contact_icon"> 
+            <i class="fa fa-phone" aria-hidden="true" style="color: #fff"></i> <span style="font-size: 15px ; padding:0px 10px;color:white;"  id="mySpan1"> Call Us </span>
+        </div>
+    </a>
+
+</div>
+<style>
+
+.floating_btn {
+        position: fixed;
+        bottom: 0px;
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .floating_btn2 {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .contact_icon {
+        background-color: rgba(37, 211, 102, 0.62);
+        /* color: #fff !important; */
+        width: 155px;
+        height: 45px;
+        font-size: 30px;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translatey(0px);
+        animation: pulse 1.5s infinite;
+        box-shadow: 0 0 0 0 #42db87;
+        -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        font-weight: normal;
+        font-family: sans-serif;
+        text-decoration: none !important;
+        transition: all 300ms ease-in-out;
+    }
+
+    @media screen and (max-width: 600px) {
+  #mySpan1 {
+    display: none;
+  }
+  .floating_btn, .floating_btn2{
+  
+    right:0px;
+  }
+  .contact_icon{
+    width: 45px;
+  }
+}
+</style>
 <body id="bodys">
     <div id="preloader"></div>
     <div class="overlay-content">
@@ -53,11 +133,15 @@
                 <div class="navbar-mini scroll-hide">
                     <div class="container-fluid">
                         <div class="nav navbar-nav navbar-left" style="font-size:12px;">
-                            <span>Welcome to our  Hotel Anju Shree Inn  Jaipur, Rajasthan</span>
+
+                            <span>Welcome to our Hotel Anju Shree Inn Jaipur, Rajasthan</span>
                             <hr />
-                            <span><i class="fa fa-phone"></i> +91 7412963888 , +91 9829655254 , 0141 4871485</span>
+                            <span><i class="fa fa-phone"></i> +91 7412963888 , +91 9829655254 , +91 9772722276 , 0141
+                                4871485</span>
                             <hr />
-                            <span><i class="fa fa-envelope-o"></i>hotelanjushreeinnjpr@gmail.com</span>
+                            <span><i class="fa fa-envelope-o"></i>hotelanjushreeinnjpr@gmail.com ,
+                                Gm@hotelanjushree.in</span>
+
                         </div>
                         {{-- <div class="nav navbar-nav navbar-right">
                             <div class="minisocial-group">
@@ -174,7 +258,7 @@
 
 
 
-        <div id="fullpage-main" >
+        <div id="fullpage-main">
 
             <!-- Zero Star -->
 
@@ -208,13 +292,13 @@
 
             <!-- One Star -->
 
-         
+
 
 
             <!-- One Star -->
 
             <!-- Two Star -->
-           
+
 
             <!-- Two Star -->
 
@@ -254,7 +338,7 @@
             @foreach(App\Models\accommodation::where('star',4)->orderBy('id', 'DESC')->get() as $accommodation)
             <div class="section overlay-container white text-center"
                 style="background-image:url('/storage/homepage/{{$accommodation->image}}'); background-size:cover">
-                <div class="container content box-middle"  style="padding-top:0px ">
+                <div class="container content box-middle" style="padding-top:0px ">
 
                     <div data-fullpage-anima="show-scale" data-timeline="asc">
                         <i class="fa fa-star anima" style="color: white"></i><span class="space"></span>
@@ -289,10 +373,9 @@
                         <p class="footer-title">CONTACT US</p>
                         <p>Plot No. 1B , Shop No. 6/7 , Kalyan Nagar 3rd , Sanganer , Tonk Road , Jaipur - 302029</p>
                         <div class="tag-row icon-row">
-                            <span><a
-                                    href="mailto:hotelanjushreeinnjpr@gmail.com">hotelanjushreeinnjpr@gmail.com</a></span>
-                            <span>+91 7412963888 , +91 9829655254 , 0141 4871485</span>
-                            {{-- <span>0141-2337787</span> --}}
+                            <span><a href="mailto:hotelanjushreeinnjpr@gmail.com">hotelanjushreeinnjpr@gmail.com </a> ,
+                                <a href="mailto:Gm@hotelanjushree.in">Gm@hotelanjushree.in</a></span>
+                            <span>+91 7412963888 , +91 9829655254 , +91 9772722276 , 0141 4871485</span>
                         </div>
                         <hr class="space xs" />
                         <div class="btn-group navbar-social">

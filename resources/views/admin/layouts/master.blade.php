@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--favicon-->
-	<link rel="icon" href="/admin/assets/images/favicon-32x32.png" type="image/png" />
+	<link rel="icon" href="/admin/assets/images/logo.png"  type="image/png" />
 	<!--plugins-->
 	<script src="{{asset('admin/js/jquery.min.js')}}"></script>
 	<link href="/admin/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />

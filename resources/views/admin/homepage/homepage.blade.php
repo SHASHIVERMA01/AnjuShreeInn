@@ -58,12 +58,12 @@
                                     {{csrf_field()}}
                                     <input type="submit" class="btn btn-primary btn-sm" value="Edit">
                                 </form>
-                                <form method="POST" action="{{ route('homepagedestroy', $data->id) }}">
+                                {{-- <form method="POST" action="{{ route('homepagedestroy', $data->id) }}">
                                     {{csrf_field()}}
                                     {{ method_field('DELETE') }}
                                     <input type="submit" class="btn btn-danger btn-sm" value="Del"
                                         onclick="return confirm('Are you sure you want to delete this Record?');">
-                                </form>
+                                </form> --}}
                             </td>
                         </tr>
                         @endforeach

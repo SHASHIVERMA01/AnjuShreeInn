@@ -1,7 +1,7 @@
 <div class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
         <div>
-            <img src="/admin/assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+            <img src="/admin/assets/images/logo.png"  style="transform:scale(1.6,1.6)" class="logo-icon" alt="logo icon">
         </div>
         <div>
             <h5 class="logo-text" style="font-size: 15px;">Anju Shree Inn</h5>

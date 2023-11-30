@@ -36,6 +36,7 @@
 				
 				<!--end row-->
 				<div class="row row-cols-1 row-cols-md-3 row-cols-xl-5">
+					<a href="{{route('banner.index')}}">
 					<div class="col">
 						<div class="card radius-10">
 							<div class="card-body">
@@ -51,6 +52,8 @@
 							</div>
 						</div>
 					</div>
+				</a>
+				<a href="{{route('homepage.index')}}">
 					<div class="col">
 						<div class="card radius-10">
 							<div class="card-body">
@@ -63,6 +66,8 @@
 							</div>
 						</div>
 					</div>
+				</a>
+				<a href="{{route('allbanners.index')}}">
 					<div class="col">
 						<div class="card radius-10">
 							<div class="card-body">
@@ -75,7 +80,8 @@
 							</div>
 						</div>
 					</div>
-
+				</a>
+				<a href="{{route('gallery.index')}}">
 					<div class="col">
 						<div class="card radius-10">
 							<div class="card-body">
@@ -88,7 +94,8 @@
 							</div>
 						</div>
 					</div>
-					
+				</a>
+				<a href="{{route('blog.index')}}">
 					<div class="col">
 						<div class="card radius-10">
 							<div class="card-body">
@@ -101,6 +108,145 @@
 							</div>
 						</div>
 					</div>
+
+				</a>
+				</div>
+				<!--end row-->
+
+				<!--end row-->
+				<div class="row row-cols-1 row-cols-md-3 row-cols-xl-5">
+					<a href="{{route('accommodation.index')}}">
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									@php
+									$date = date('Y-m-d');
+									@endphp
+									<h4 class="my-1">{{--App\Models\Facebook::where('created_time','like',"%$date%")->count()--}}</h4>
+									<p class="mb-0 text-secondary">Accommodation</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+					<a href="{{route('eventbanquet.index')}}">
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									<h4 class="my-1">{{--App\Models\Facebook::where('created_time','like',"%$date%")->where('is_crm_status','0')->count()--}}</h4>
+									<p class="mb-0 text-secondary">Event & Banquets</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+					<a href="{{route('specialoffers.index')}}">
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									<h4 class="my-1">{{--App\Models\Facebook::where('created_time','like',"%$date%")->where('is_crm_status','2')->count()--}}</h4>
+									<p class="mb-0 text-secondary">Specialoffers</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+					<a href="{{route('testimonial.index')}}">
+
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									<h4 class="my-1">{{--App\Models\Facebook::where('created_time','like',"%$date%")->where('is_crm_status','1')->count()--}}</h4>
+									<p class="mb-0 text-secondary">Testimonial</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+					
+					
+					<a href="{{route('contact.index')}}">
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									<h4 class="my-1">{{--App\Models\Facebook::count()--}}</h4>
+									<p class="mb-0 text-secondary">Contact</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					</a>
+				</div>
+				<!--end row-->
+
+				<!--end row-->
+				<div class="row row-cols-1 row-cols-md-3 row-cols-xl-5">
+					<a href="{{route('aboutlocation.index')}}">
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									@php
+									$date = date('Y-m-d');
+									@endphp
+									<h4 class="my-1">{{--App\Models\Facebook::where('created_time','like',"%$date%")->count()--}}</h4>
+									<p class="mb-0 text-secondary">About Location</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+
+					<a href="{{route('meta.index')}}">
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									<h4 class="my-1">{{--App\Models\Facebook::where('created_time','like',"%$date%")->where('is_crm_status','0')->count()--}}</h4>
+									<p class="mb-0 text-secondary">Meta tags</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+
+					<a href="{{route('allbanners.index')}}">
+					<div class="col">
+						<div class="card radius-10">
+							<div class="card-body">
+								<div class="text-center">
+									<div class="widgets-icons rounded-circle mx-auto bg-light-primary text-primary mb-3"><img src="images/gallery/hotel.png" alt="" style="width: 30px;">
+									</div>
+									<h4 class="my-1">{{--App\Models\Facebook::where('created_time','like',"%$date%")->where('is_crm_status','2')->count()--}}</h4>
+									<p class="mb-0 text-secondary">Page Banners</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					</a>
+
+					
 				</div>
 				<!--end row-->
 			</div>

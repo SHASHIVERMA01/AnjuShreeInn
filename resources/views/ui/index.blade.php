@@ -1,5 +1,88 @@
 @extends('layouts.master') @section('body')
 
+<div class="floating_btn">
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=919829655254">
+        <div class="contact_icon"> <span style="font-size: 15px ; padding:0px 10px;color:white;" id="mySpan1"> Contact Us </span>
+            <i class="fa fa-whatsapp my-float" style="color: #fff"></i>
+        </div>
+    </a>
+
+</div>
+
+<div class="floating_btn2">
+    <a target="_blank" href="tel: 9829655254">
+        <div class="contact_icon"> 
+            <i class="fa fa-phone" aria-hidden="true" style="color: #fff"></i> <span style="font-size: 15px ; padding:0px 10px;color:white;"  id="mySpan1"> Call Us </span>
+        </div>
+    </a>
+
+</div>
+<style>
+
+.floating_btn {
+        position: fixed;
+        bottom: 0px;
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .floating_btn2 {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .contact_icon {
+        background-color: rgba(37, 211, 102, 0.62);
+        /* color: #fff !important; */
+        width: 155px;
+        height: 45px;
+        font-size: 30px;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translatey(0px);
+        animation: pulse 1.5s infinite;
+        box-shadow: 0 0 0 0 #42db87;
+        -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        font-weight: normal;
+        font-family: sans-serif;
+        text-decoration: none !important;
+        transition: all 300ms ease-in-out;
+    }
+
+    @media screen and (max-width: 600px) {
+  #mySpan1 {
+    display: none;
+  }
+  .floating_btn, .floating_btn2{
+  
+    right:0px;
+  }
+  .contact_icon{
+    width: 45px;
+  }
+}
+</style>
+
 <div class="section-slider home-slider">
     <div class="flexslider advanced-slider slider white text-center" data-options="animation:fade">
         <ul class="slides">
@@ -60,6 +143,14 @@
     #mobile-slider {
         display: none;
     }
+
+
+    /* whats app css */
+    /* a{
+  text-decoration:none;
+} */
+
+
 </style>
 
 
@@ -178,13 +269,11 @@
     }
 
 
-@media screen and (max-width:700px)
-{
-    #pzero{
-        padding-top: 0px;
+    @media screen and (max-width:700px) {
+        #pzero {
+            padding-top: 0px;
+        }
     }
-}
-
 </style>
 <script>
     $(document).ready(function() {
@@ -295,7 +384,7 @@
                                     <a href="https://bookings.hotelparkocean.com/?propertyId=7082"
                                         class="btn btn-full-width" data-meta="" id="" name="" type="submit"
                                         value="Book Now" style="border: none;
-    padding: 10px;" >Book Now</a>
+    padding: 10px;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -369,8 +458,10 @@
         <!--        <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>-->
         <!--    </div>-->
         <!--</form>-->
-    {{-- </div> --}}
-{{-- </div> --}}
+        {{--
+    </div> --}}
+    {{--
+</div> --}}
 
 
 
@@ -425,7 +516,9 @@
         </div>
     </div>
 </div>
-{{-- --------------------------------------------------------------------------------------------------------------------------------- --}}
+{{--
+---------------------------------------------------------------------------------------------------------------------------------
+--}}
 <div class="section-empty">
     <div class="container content" id="pzero">
         <div class="row" data-anima="fade-bottom">
@@ -435,31 +528,37 @@
                     <hr class="anima" />
                 </div>
                 <p class="text-justify">
-                    "Discover a culinary journey at our hotel's diverse outlets. From the upscale Grand Dining Room to the relaxed Poolside Oasis, each venue offers a unique dining experience. Savor global flavors at Spice Fusion, unwind at The Terrace Lounge, or grab a quick bite at our Grab & Go Corner. Whether it's an opulent dinner or a refreshing poolside snack, our outlets promise culinary excellence in every bite."
+                    "Discover a culinary journey at our hotel's diverse outlets. From the upscale Grand Dining Room to
+                    the relaxed Poolside Oasis, each venue offers a unique dining experience. Savor global flavors at
+                    Spice Fusion, unwind at The Terrace Lounge, or grab a quick bite at our Grab & Go Corner. Whether
+                    it's an opulent dinner or a refreshing poolside snack, our outlets promise culinary excellence in
+                    every bite."
 
                 </p>
                 <hr class="space xs" />
                 <a href="/accommodations" class="anima-button circle-button btn-sm btn"><i
                         class="fa fa-long-arrow-right"></i>Take a look</a>
             </div>
-            
+
             <div class="col-md-6">
                 {{-- <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
                     <h2>Why Travel Hotel ?</h2>
                     <hr class="anima" />
                 </div> --}}
 
-                
-                       <img src="images/outlet.jpeg" alt="">
-                    
-                   
+
+                <img src="images/outlet.jpeg" alt="">
+
+
             </div>
 
         </div>
     </div>
 </div>
 
-{{-- ---------------------------------------------------------------------------------------------------------------------------  --}}
+{{--
+---------------------------------------------------------------------------------------------------------------------------
+--}}
 
 <div class="section-bg-image overlay-container parallax-window" data-natural-height="750" data-natural-width="1920"
     data-parallax="scroll" data-image-src=""
@@ -623,5 +722,7 @@
         </div>
     </div>
 </div>
+
+
 
 @endsection
